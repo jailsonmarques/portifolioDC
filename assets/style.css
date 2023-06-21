@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 40px 0;
+  min-height: 700px;
+
+}
+
+.center {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+header .logo h2 {
+  color: white;
+}
+
+header .logo h2>span {
+  background-image: linear-gradient(to bottom, #004A61, #0086AE, #00ACE0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000;
+}
+
+
+
+.sobre-header {
+  margin-top: 100px;
+  color: white;
+}
+
+.sobre-header h1 {
+  margin: 20px 0;
+  font-size: 50px;
+}
+
+.sobre-header h1 span {
+  background-image: linear-gradient(to bottom, #004A61, #0086AE, #00ACE0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000;
+}
+
+section.trabalhos {
+  padding: 40px 0;
+}
+
+section.trabalhos>h2 {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+}
+
+.trabalho-single {
+  display: flex;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+
+.trabalho-img {
+  width: 50%;
+  padding: 50px;
+  background-image: linear-gradient(to bottom, #004A61, #0086AE, #00ACE0);
+}
+
+.trabalho-img img {
+  max-width: 450px;
+  width: 450px;
+}
+
+
+.wraper-descricao {
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.box-depoimentos {
+  padding: 8 15px;
+  margin: 40px 0;
+  border-radius: 8px;
+  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.4);
+}
+
+.box-depoimentos p {
+  color: #4d533c;
+  margin: 10px 0;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.box-depoimentos h2 {
+  color: #1b1b1b;
+  font-size: 16px;
+}
+
+.box-depoimentos h3 {
+  color: #1b1b1b;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.box-depoimentos-user {
+  display: flex;
+  padding: 8px;
+}
+
+.box-depoimentos-user img {
+  width: 50px;
+  height: 50px;
+}
+
+.box-depoimentos-nome {
+  padding: 8 10px;
+}
+
+section.faq {
+  padding: 50px 0;
+  border-top: 1px solid #ccc;
+}
+
+.box-faq {
+  margin: 30px 0;
+  border-radius: 4px;
+  box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  float: left;
+  width: 22%;
+  min-height: 200px;
+  margin-right: 3%;
+  padding: 30px 30px;
+}
+
+.box-faq-2 {
+  margin: 30px 0;
+  float: left;
+  width: 22%;
+  margin-right: 3%;
+  padding: 30px 30px;
+}
+
+
+.box-faq h2 {
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+.box-faq p {
+  font-size: 14px;
+  color: rgba(33, 56, 66, 0.6);
+}
+
+@media screen and (max-width: 768px) {
+
+  .box-faq,
+  .box-faq-2 {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .trabalho-img,
+  .wraper-descricao {
+    width: 100%;
+  }
+
+}
