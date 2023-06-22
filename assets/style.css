@@ -258,6 +258,11 @@ footer .footer-area h2 span {
 
 @media screen and (max-width: 768px) {
 
+  .footer-area {
+    flex-direction: column;
+    font-size: 10px;
+  }
+
   .numeros-contato, .form {
     width: 100%;
     margin-bottom: 30px;
