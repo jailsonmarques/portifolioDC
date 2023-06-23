@@ -9,7 +9,18 @@ header {
   background-color: #1a1a1a;
   padding: 40px 0;
   min-height: 700px;
+}
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c2c31;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9e9ea0;
 }
 
 .center {
